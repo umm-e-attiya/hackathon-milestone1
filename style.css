@@ -1,0 +1,89 @@
+body{
+    background-color: #f4f4f4;
+}
+
+#mainsection{
+         width: 700px;
+         height: 100vh;
+         margin-left: 30%;
+         border: 2px solid black;
+         background: #A2C8FF;
+}
+
+img{
+    width: 30%;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 35%;
+}
+
+#personalinfo{
+     margin-left: 30%;
+}
+
+.paragraph{
+       margin-left: 2%;
+       font-size: 20px;
+}
+
+#education{
+    margin-left: 30%;
+
+}
+
+#skills{
+    margin-left: 30%;
+
+}
+
+#workexperience{
+    margin-left: 30%;
+
+}
+
+#toggle-button{
+       margin-left: 40%;
+       width: 100px;
+       height: 50px;
+       background-color: black;
+       color: white;
+      cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px){
+    #mainsection{
+        width: 700px;
+        height: 210vh;
+        margin-left: 5%;
+        border: 2px solid black;
+        background: #A2C8FF;
+}
+
+
+
+}   
+@media only screen and (min-width: 600px) {
+    
+    #mainsection{
+        width: 700px;
+        height: 210vh;
+        margin-left: 5%;
+        border: 2px solid black;
+        background: #A2C8FF;
+
+        
+}
+
+}
+
+@media only screen and (min-width: 1000px) {
+    #mainsection{
+        width: 700px;
+        height: 180vh;
+        margin-left: 30%;
+        border: 2px solid black;
+        background: #A2C8FF;
+}
+
+}
